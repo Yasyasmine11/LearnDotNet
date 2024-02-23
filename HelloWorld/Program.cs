@@ -56,7 +56,23 @@ namespace HelloWorld
             }
             Console.WriteLine("*************");
 
-            // Fifth : Operators
+            // Fifth : Operators ( easy )
+
+            // Sixth : Classes ( using the class defined in Person.cs file
+            var person = new Person();
+            var p = Person.Parse("Jasmine");
+            person.name = "Jasmine";
+            person.Introduce("Aou");
+            // With a static meth
+            Console.WriteLine("*Using a stat method* : ");
+            p.Introduce("Aou");
+            Console.WriteLine("*************");
+
+            // Seventh : Constructors
+            // Overloading : when we can define different constructors
+
+            // Eighth : Fields
+
 
 
         }
